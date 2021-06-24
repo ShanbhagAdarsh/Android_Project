@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "988849076990",
+    "project_id": "bookpg-b3f4e",
+    "storage_bucket": "bookpg-b3f4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988849076990:android:e3ef79df1dea7e5f9903af",
+        "android_client_info": {
+          "package_name": "com.example.pgapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988849076990-1d1d18m7tm7f5e5b1ctqh59dmq7p3vvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCC5P4KkIalSyB8kbbLhJ9hS6jRj89Og7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988849076990-1d1d18m7tm7f5e5b1ctqh59dmq7p3vvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

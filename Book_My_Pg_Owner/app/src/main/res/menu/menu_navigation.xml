@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+
+    <item android:id="@+id/navigation_PG_Details"
+        android:icon="@drawable/ic_pg"
+        android:title="PG Details"/>
+
+    <item android:id="@+id/navigation_Room_Details"
+        android:icon="@drawable/ic_bed"
+        android:title="Room Details"/>
+
+    <item android:id="@+id/navigation_PG_gallery"
+        android:icon="@drawable/ic_image"
+        android:title="PG Gallery"/>
+
+    <item android:id="@+id/navigation_Users"
+        android:icon="@drawable/ic_user"
+        android:title="Users"/>
+
+</menu>
