@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayActivity"
+    android:background="@drawable/recycle">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:titleMarginStart="145dp"
+        app:title="Book My PG"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:id="@+id/main_toolbar"
+        tools:ignore="MissingConstraints">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/pgName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_pgname"
+        android:drawableLeft="@drawable/ic_pgname"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#0B0A0A"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_toolbar"
+        app:layout_constraintVertical_bias="0.248"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/pgOname"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_person_p"
+        android:drawableLeft="@drawable/ic_person_p"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#0B0A0A"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pgName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pgName"
+        app:layout_constraintTop_toBottomOf="@+id/pgName"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/pgPhno"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_phone_p"
+        android:drawableLeft="@drawable/ic_phone_p"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#0B0A0A"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pgOname"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pgOname"
+        app:layout_constraintTop_toBottomOf="@+id/pgOname"
+        app:layout_constraintVertical_bias="0.043"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/pgType"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_face_p"
+        android:drawableLeft="@drawable/ic_face_p"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#0B0A0A"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pgPhno"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/pgPhno"
+        app:layout_constraintTop_toBottomOf="@+id/pgPhno"
+        app:layout_constraintVertical_bias="0.054"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/pgAdd"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_home_p"
+        android:drawableLeft="@drawable/ic_home_p"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="#0B0A0A"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pgType"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pgType"
+        app:layout_constraintTop_toBottomOf="@+id/pgType"
+        app:layout_constraintVertical_bias="0.055"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/pgCity"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_city"
+        android:drawableLeft="@drawable/ic_city"
+        android:gravity="bottom"
+        android:padding="10dp"
+        android:textAlignment="textStart"
+        android:textAllCaps="true"
+        android:textColor="#0B0A0A"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pgAdd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pgAdd"
+        app:layout_constraintTop_toBottomOf="@+id/pgAdd"
+        app:layout_constraintVertical_bias="0.093"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/pgPic"
+        android:layout_width="203dp"
+        android:layout_height="51dp"
+        android:text="Check Pictures"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:backgroundTint="#4187BF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pgCity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pgCity"
+        app:layout_constraintTop_toBottomOf="@+id/pgCity"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/pgAvail"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:text="Room Availability"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4187BF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/pgPic"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/pgPic"
+        app:layout_constraintTop_toBottomOf="@+id/pgPic"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_toolbar"
+        app:layout_constraintVertical_bias="0.016">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="107dp"
+            android:layout_height="101dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="16dp"
+            android:foregroundGravity="center"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="16dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="106dp"
+                android:layout_height="101dp"
+                android:scaleType="centerCrop" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

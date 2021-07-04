@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment1"
+        android:title="Home"
+        android:icon="@drawable/ic_home_pg"/>
+
+    <item
+        android:id="@+id/fragment2"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_frag"/>
+
+    <item
+        android:id="@+id/fragment4"
+        android:title="Notification"
+        android:icon="@drawable/ic_notifications"/>
+
+    <item
+        android:id="@+id/fragment3"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>
